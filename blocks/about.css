@@ -40,6 +40,7 @@
   line-height: 30px;
   max-width: 660px;
   z-index: 2;
+  margin: 19px 0 0;
 }
 .about__circle {
   background-color: #2f80ed;
