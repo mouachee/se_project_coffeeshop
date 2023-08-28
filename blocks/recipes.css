@@ -8,9 +8,11 @@
   box-sizing: border-box;
 }
 .recipes__title {
+  margin-top: 0;
+  margin-bottom: 0;
   color: #fff;
   max-width: 580px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -20,7 +22,7 @@
   color: #fff;
   margin: 24px 0 0 0;
   max-width: 438px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -42,7 +44,7 @@
   color: #fff;
   display: flex;
   margin: 24px 0 0 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;

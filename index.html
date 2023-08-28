@@ -21,7 +21,7 @@
       <header class="header">
         <nav class="nav">
           <img
-            src="/images/logo_coffeeshop_dark.svg"
+            src="./images/logo_coffeeshop_dark.svg"
             alt="Triple Peak library Coffeeshop logo"
             class="nav__logo"
           />
@@ -50,7 +50,7 @@
           the cozy vibes to help you get creative.
         </p>
         <img
-          src="images/inside_coffee_shop.png"
+          src="./images/inside_coffee_shop.png"
           alt="inside the Triple Peaks Library coffee shop"
           class="header__image"
         />
@@ -73,8 +73,8 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <div class="recipes__videos">
-            <div>
+          <ul class="recipes__videos">
+            <li>
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 title="YouTube video player"
@@ -85,8 +85,8 @@
               <p class="recipes__video-caption">
                 <span>Aeropress recipe</span> ~5 min
               </p>
-            </div>
-            <div>
+            </li>
+            <li>
               <iframe
                 src="https://www.youtube.com/embed/st571DYYTR8"
                 title="YouTube video player"
@@ -97,8 +97,8 @@
               <p class="recipes__video-caption">
                 <span>French press recipe</span> ~15 min
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section id="book-a-table" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
@@ -107,6 +107,7 @@
               <label for="name" class="form__label"
                 >Name *
                 <input
+                  required
                   type="text"
                   class="form__input"
                   id="name"
@@ -116,6 +117,7 @@
               <label for="number" class="form__label"
                 >Number of guest *
                 <input
+                  required
                   type="number"
                   class="form__input"
                   id="number"
@@ -127,6 +129,7 @@
               <label for="date" class="form__label"
                 >Date & time *
                 <input
+                  required
                   type="datetime-local"
                   class="form__input"
                   id="date"
@@ -135,6 +138,7 @@
               <label for="email" class="form__label"
                 >Your email *
                 <input
+                  required
                   type="email"
                   class="form__input"
                   id="email"
@@ -145,6 +149,7 @@
             <button type="submit" class="form__button">Book a table</button>
             <label for="agree" class="form__label form__label_type_checkbox">
               <input
+                required
                 type="checkbox"
                 class="form__checkbox"
                 name="agree"
@@ -246,6 +251,7 @@
             </p>
           </div>
           <div class="about__circle about__circle_animation_blurred"></div>
+          <div class="about__circle"></div>
         </section>
       </main>
       <footer class="footer">
